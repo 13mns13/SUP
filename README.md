@@ -2,7 +2,7 @@
 # SUP
 Платформа для образовательного процесса IT Школы Samsung __by Perspective__
 
-[Презентация](http://localhost/) | [Демонстрация](http://localhost/) | [Платформа](http://localhost/)
+[Презентация](http://localhost/) | [Демонстрация](https://cloud.mail.ru/public/bgoa/znRHf4ojH) | [Платформа](https://e.not-undo.xyz/)
 
 #### Инструкция по установке
 1. Скачайте и установите [TamperMonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) 
