@@ -6,7 +6,7 @@
 
 #### Инструкция по установке
 1. Скачайте и установите [TamperMonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) 
-2. Установите [плагин SamsungUP](https://openuserjs.org/scripts/daniilq/SamsungUP) 
+2. Установите [плагин SamsungUP](https://github.com/Daniil-master/SUP/blob/main/tampermonkey/index.js) 
 3. Авторизируйтесь на платформе [IT Школа Samsung](https://myitschool.ru/edu/my/) 
 4. Нажмите «Открыть платформу» 
 
