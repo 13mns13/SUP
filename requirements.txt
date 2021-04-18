@@ -1,0 +1,5 @@
+Flask
+pymongo
+requests
+Flask-Cors
+beautifulsoup4

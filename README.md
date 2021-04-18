@@ -1,2 +1,17 @@
+![](https://github.com/Daniil-master/SUP/blob/main/logo.svg)
 # SUP
-Платформа для образовательного процесса IT Школы Samsung
+Платформа для образовательного процесса IT Школы Samsung __by Perspective__
+
+[Презентация](http://localhost/) | [Демонстрация](http://localhost/) | [Платформа](http://localhost/)
+
+#### Инструкция по установке
+1. Скачайте и установите [TamperMonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) 
+2. Установите [плагин SamsungUP](https://openuserjs.org/scripts/daniilq/SamsungUP) 
+3. Авторизируйтесь на платформе [IT Школа Samsung](https://myitschool.ru/edu/my/) 
+4. Нажмите «Открыть платформу» 
+
+![](https://github.com/Daniil-master/SUP/blob/main/img/ScreenshotPlugin.png)
+5. Вы попадаете на платформу 
+
+
+
