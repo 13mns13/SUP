@@ -1,0 +1,139 @@
+.reg_main_container {
+    background: #FAFAFA;
+    width: 80%;
+    height: 100%;
+    font-family: 'Manrope', sans-serif;
+    font-size: 13px;
+    margin: 0;
+    padding: 10%;
+    box-sizing: initial;
+}
+
+.reg_welcome {
+    width: 50%;
+    margin: auto;
+    height: 400px;
+    padding-right: 50%;
+}
+
+.reg_welcome::before {
+    content: "";
+    position: absolute;
+    width: 929px;
+    height: 764px;
+    background: url('../img/girl.png') no-repeat 0 0;
+    right: 0;
+    left: auto;
+    top: 200px;
+    pointer-events: none;
+}
+
+.reg_welcome_title {
+    margin: 5% 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4.15em;
+    letter-spacing: 0.01em;
+    color: #0D1F40;
+}
+
+.reg_welcome_subtitle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.46em;
+    color: #0D1F40;
+}
+
+.reg_welcome_learning_title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.46em;
+    color: #0D1F40;
+    margin-top: 5%;
+}
+
+.reg_welcome_learning_btns {
+    width: 30%;
+    height: 4.3em;
+    border-radius: 1.2em;
+    background: #FFFFFF;
+    margin-top: 5%;
+    display: flex;
+}
+
+.reg_btn {
+    width: 40%;
+    height: 3.6em;
+    border-radius: 1.2em;
+    outline: 0;
+    border: 0;
+    transition: all .2s ease-in;
+    background: transparent;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.2em;
+    letter-spacing: -0.355556px;
+    color: #999FAE;
+}
+
+.reg_btn:hover {
+    cursor: pointer;
+}
+
+.reg_btn.reg_active {
+    width: 60%;
+    background: linear-gradient(175.91deg, #FFC850 3.34%, #FFC13A 96.67%);
+    box-shadow: 0px 22px 28px rgba(221, 195, 138, 0.16);
+    color: #FFFFFF;
+}
+
+.reg_form {
+    width: 50%;
+    margin: auto;
+    height: 800px;
+    padding-right: 50%;
+    display: block;
+}
+
+.reg_form_input {
+    display: block;
+    border: 0;
+    outline: 0;
+    width: 40%;
+    box-shadow: 0 22px 28px rgba(219, 230, 236, 0.16);
+    border-radius: 16px;
+    height: 3.6em;
+    margin-top: 5%;
+    letter-spacing: -0.355556px;
+    font-weight: 500;
+    font-size: 1.2em;
+    padding: 0 2%;
+    color: #999FAE;
+}
+
+.reg_form_block {
+    width: 45%;
+    height: 3.6em;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.reg_form_submit {
+    width: 45%;
+    height: 3.6em;
+    margin-top: 5%;
+    border: 0;
+    outline: 0;
+    box-shadow: 0 22px 28px rgba(219, 230, 236, 0.16);
+    letter-spacing: -0.355556px;
+    font-weight: 500;
+    font-size: 1.2em;
+    border-radius: 16px;
+    color: #FFFFFF;
+    background: linear-gradient(175.91deg, #FFC850 3.34%, #FFC13A 96.67%);
+}
+
+.reg_form_submit:hover {
+    cursor: pointer;
+}

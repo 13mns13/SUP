@@ -1,0 +1,226 @@
+.home_main_cont {
+    background: #FAFAFA;
+    width: 100%;
+    height: 100%;
+    font-family: 'Manrope', sans-serif;
+    font-size: 13px;
+    padding-top: 10%;
+}
+
+.home_block1 {
+    width: 60%;
+    margin: auto;
+    height: 500px;
+    padding: 0 30% 0 0;
+}
+
+.home_block2 {
+    width: 60%;
+    margin: auto;
+    height: 500px;
+}
+
+.h1_title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.38em;
+    color: #0D1F40;
+    opacity: 0.6;
+}
+
+.h2_title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.85em;
+    color: #0D1F40;
+    opacity: 0.7;
+}
+
+.h3_title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.76em;
+    color: #0D1F40;
+}
+
+.h4_title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4.15em;
+    letter-spacing: 0.01em;
+    color: #0D1F40;
+}
+
+.home_mt5 {
+    margin-top: 5%;
+}
+
+.reg_form_submit {
+    width: 45%;
+    height: 3.6em;
+    margin-top: 5%;
+    border: 0;
+    outline: 0;
+    box-shadow: 0 22px 28px rgba(219, 230, 236, 0.16);
+    letter-spacing: -0.355556px;
+    font-weight: 500;
+    font-size: 1.2em;
+    border-radius: 16px;
+
+}
+
+.home_btn_yellow {
+    width: 58%;
+    color: #FFFFFF;
+    background: linear-gradient(175.91deg, #FFC850 3.34%, #FFC13A 96.67%);
+}
+
+.home_btn_light_yellow {
+    width: 40%;
+    color: #FFC74C;
+    background: #FBF2DE;
+}
+
+.reg_form_submit:hover {
+    cursor: pointer;
+}
+
+.home_block1_buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home_block1_card {
+    width: 500px;
+    height: 280px;
+    background: #F9F3E5;
+    padding: 2%;
+    box-shadow: 0px 22px 28px rgba(221, 195, 138, 0.16);
+    border-radius: 16px;
+    position: relative;
+}
+
+.home_block1_cards {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home_block1_card.java::before {
+    content: "";
+    background: url('../img/java_logo.png') no-repeat 0 0;
+    position: absolute;
+    width: 177px;
+    height: 198px;
+    right: 0;
+    top: 0;
+    pointer-events: none;
+}
+
+.home_block1_card.android::before {
+    content: "";
+    background: url('../img/android_logo.png') no-repeat 0 0;
+    position: absolute;
+    width: 212px;
+    height: 198px;
+    right: 30px;
+    top: 30px;
+    pointer-events: none;
+}
+
+.home_block1_card .reg_form_submit {
+    width: 80%;
+    margin: 13% 10%;
+}
+
+@media (min-width: 1281px) and (max-width: 1700px) {
+    .home_main_cont {
+        font-size: 12px;
+    }
+
+    .home_block1 {
+        width: 80%;
+        padding: 0 40% 0 0;
+    }
+
+    .home_block2 {
+        width: 80%;
+        height: 1000px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 1280px) {
+    .home_main_cont {
+        font-size: 11px;
+    }
+
+    .home_block1_cards {
+        display: block;
+    }
+
+    .home_block1_card {
+        margin: 6% auto 0 auto;
+        padding: 5%;
+    }
+
+    .home_block1 {
+        width: 80%;
+        padding: 0;
+    }
+
+    .home_block2 {
+        width: 90%;
+        height: 1000px;
+        text-align: center;
+    }
+
+    .home_block1_card.android::before {
+        content: "";
+        background: url('../img/android_logo.png') no-repeat 0 0;
+        position: absolute;
+        width: 212px;
+        height: 184px;
+        right: 30px;
+        top: 30px;
+        pointer-events: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .home_main_cont {
+        font-size: 11px;
+    }
+
+    .home_block1_cards {
+        display: block;
+    }
+
+    .home_block1_card {
+        margin: 6% auto 0 auto;
+        padding: 5%;
+    }
+
+    .home_block1 {
+        width: 80%;
+        padding: 0;
+    }
+
+    .home_block2 {
+        width: 90%;
+        height: 1000px;
+        text-align: center;
+    }
+
+    .home_block1_card.android::before {
+        content: "";
+        background: url('../img/android_logo.png') no-repeat 0 0;
+        position: absolute;
+        width: 212px;
+        height: 178px;
+        right: 30px;
+        top: 30px;
+        pointer-events: none;
+    }
+}

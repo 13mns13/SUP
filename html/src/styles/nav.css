@@ -1,0 +1,54 @@
+.navigation {
+    width: 46px;
+    height: 230px;
+    background: #FFFFFF;
+    border-radius: 11px;
+    z-index: 100;
+    position: absolute;
+    top: 30%;
+    margin: auto 0;
+    left: 46px;
+    box-shadow: 0px 67px 78px -6.58px rgba(187, 204, 229, 0.16);
+}
+
+svg path {
+    fill: #FFC850;
+    stroke: none;
+    pointer-events: none;
+}
+
+.navigation_element {
+    width: 46px;
+    height: 46px;
+    padding: 25%;
+    transition: all .5s ease;
+    border-radius: 11px;
+    border: 0;
+    outline: 0;
+    background-color: #FFFFFF;
+    z-index: 10;
+}
+/*Минадзуки Сёкора*/
+.navigation_element_active {
+    background-color: #FFC850;
+}
+
+.navigation_element_active svg {
+    pointer-events: none;
+    z-index: 1;
+}
+
+.navigation_element_active svg path {
+    fill: #FFFFFF;
+    pointer-events: none;
+}
+
+.navigation_element:hover {
+    background: #FFDC90;
+    cursor: pointer;
+}
+
+.navigation_element:hover svg path {
+    fill: #FFFFFF;
+    pointer-events: none;
+}
